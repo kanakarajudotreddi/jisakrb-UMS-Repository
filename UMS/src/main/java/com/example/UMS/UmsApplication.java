@@ -34,14 +34,15 @@ public class UmsApplication {
 class BookingCommandLineRunner implements CommandLineRunner{
 	@Override
 	public void run(String...args) throws Exception {
-		
+		/*
 		for(Booking b : bookingRepository.findAll()) {
 			System.out.println(b.toString());
-		}
+		}*/
 		
 	}
-	@Autowired BookingRepository bookingRepository;
+	//@Autowired BookingRepository bookingRepository;
 }
+/*
 @RestController
 class BookingRestController{
 	@RequestMapping("/bookings")
@@ -78,4 +79,4 @@ class Booking {
 	public String toString() {
 		return "Booking [id="+id+",bookingName="+bookingName+"]";
 	}
-}
+}*/
